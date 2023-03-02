@@ -1,9 +1,17 @@
-export default function Home() {
+import Layout from "./components/layout";
+import Nav from "./components/nav";
+
+const HomePage = () => {
 	return (
 		<>
 			<main>
-				<h1>Welcome to Mattip</h1>
+				<Layout>
+					<h1>Welcome to Mattip</h1>
+				</Layout>
+				<Nav />
 			</main>
 		</>
 	);
-}
+};
+
+export default HomePage;
