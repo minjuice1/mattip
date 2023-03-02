@@ -1,0 +1,22 @@
+.container {
+	position: fixed;
+	bottom: 5px;
+	width: calc(100% - 16px);
+	height: 55px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: #f7a68e;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+}
+
+.mid_icon {
+	background-color: #f4d3c9;
+	border-radius: 50%;
+	padding: 8px;
+}
