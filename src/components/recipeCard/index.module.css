@@ -1,0 +1,44 @@
+.container {
+	display: flex;
+	align-items: center;
+	height: 170px;
+	width: 350px;
+	border: 1px solid black;
+	padding: 7px;
+}
+
+.image {
+	border-radius: 15px;
+}
+
+.pic {
+	padding-right: 10px;
+}
+
+.infos {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 100%;
+	font-weight: 600;
+}
+
+.title {
+	font-size: 18px;
+}
+
+.desc {
+	display: flex;
+	font-size: 14px;
+	margin-bottom: 7px;
+}
+
+.icon {
+	display: flex;
+	align-items: center;
+	margin-right: 3px;
+}
+
+.desc_number {
+	margin-right: 3px;
+}
