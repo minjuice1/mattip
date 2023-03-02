@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+	width: 250px;
+	height: 40px;
+	color: #f4d3c9;
+	font-size: 20px;
+	border-radius: 10px;
+	border: none;
+	background-color: #e35f37;
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 80%;
+}

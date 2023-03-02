@@ -1,5 +1,5 @@
-import Footer from "../src/components/common/layout/footer";
-import Header from "../src/components/common/layout/header";
+import Footer from "../components/common/layout/footer";
+import Header from "../components/common/layout/header";
 import styles from "../styles/homepage.module.css";
 
 const HomePage = () => {
