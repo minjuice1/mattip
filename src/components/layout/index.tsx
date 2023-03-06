@@ -2,7 +2,7 @@ import { PropsWithChildren } from "react";
 import { useRouter } from "next/router";
 import Header from "./header/index";
 import Nav from "./nav/index";
-import Card from "../common/card";
+import Card from "../common/card/index";
 
 import Bg from "../../images/login_bg.jpg";
 import Image from "next/image";
