@@ -1,6 +1,6 @@
 import RecipeSearch from "../components/recipeSearch";
 import TodayCard from "../components/common/todayCard";
-import RecipeCard from "../components/common/recipeCard";
+import PopularAndReviewCard from "../components/popularAndReviewCard";
 import styles from "./index.module.css";
 
 const HomePage = () => {
@@ -19,10 +19,13 @@ const HomePage = () => {
 					<TodayCard key={i} />
 				))}
 			</ul>
-			<h2 className={styles.subtitle}>인기 레시피</h2>
+			<div className={styles.subtitleWrapper}>
+				<h2 className={styles.subtitle}>인기 레시피</h2>
+				<button className={styles.see_all}>see all</button>
+			</div>
 			<ul className={styles.recipeWrapper}>
 				{list.map((_, i) => (
-					<RecipeCard key={i} />
+					<PopularAndReviewCard key={i} />
 				))}
 			</ul>
 		</>

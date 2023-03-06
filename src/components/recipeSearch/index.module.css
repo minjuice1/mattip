@@ -2,7 +2,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	width: 325px;
 	height: 40px;
 	margin: 10px auto;
 	border-radius: 20px;
@@ -17,7 +16,7 @@
 
 .input {
 	margin: 0 10px;
-	width: 250px;
+	width: 350px;
 	height: 30px;
 	font-weight: 600;
 	color: #e1e1da;
@@ -34,7 +33,6 @@
 	display: flex;
 	border-radius: 12px;
 	padding: 7px;
-	margin-right: 5px;
 	background-color: #f3f3f3;
 	/* box-shadow: 1px 1px 1px 1px #e16641; */
 	cursor: pointer;
