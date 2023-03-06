@@ -1,8 +1,20 @@
 .title {
 	font-size: 20px;
+	margin: 5px 0;
+}
+
+.subtitle {
+	font-size: 18px;
 }
 
 .strong {
 	color: #ffb823;
 	font-size: 24px;
+}
+
+.recipeWrapper {
+	display: flex;
+	padding: 0;
+	overflow-x: scroll;
+	/* overflow: hidden; */
 }

@@ -1,9 +1,11 @@
 import RecipeSearch from "../components/recipeSearch";
-import RecommendRecipe from "../components/recommendRecipe";
-import TodayRecipe from "../components/todayRecipe";
+import TodayCard from "../components/common/todayCard";
+import RecipeCard from "../components/common/recipeCard";
 import styles from "./index.module.css";
 
 const HomePage = () => {
+	const list = Array.from({ length: 5 }, (_, i) => i);
+
 	return (
 		<>
 			<h1 className={styles.title}>
@@ -11,8 +13,18 @@ const HomePage = () => {
 				만들어보세요!
 			</h1>
 			<RecipeSearch />
-			<TodayRecipe />
-			<RecommendRecipe />
+			<h2 className={styles.subtitle}>오늘의 레시피</h2>
+			<ul className={styles.recipeWrapper}>
+				{list.map((_, i) => (
+					<TodayCard key={i} />
+				))}
+			</ul>
+			<h2 className={styles.subtitle}>인기 레시피</h2>
+			<ul className={styles.recipeWrapper}>
+				{list.map((_, i) => (
+					<RecipeCard key={i} />
+				))}
+			</ul>
 		</>
 	);
 };
