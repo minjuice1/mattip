@@ -4,6 +4,7 @@ import I_List from "@/src/images/nav_list.svg";
 import I_mypage from "@/src/images/nav_mypage.svg";
 import I_heart from "@/src/images/nav_heart.svg";
 import styles from "./index.module.css";
+import Link from "next/link";
 
 const Footer = () => {
 	return (
@@ -12,18 +13,18 @@ const Footer = () => {
 				<span className={styles.icon}>
 					<I_Bars height={30} />
 				</span>
-				<span className={styles.icon}>
+				<Link href='/recipe/all' className={styles.icon}>
 					<I_List height={30} />
-				</span>
-				<span className={styles.mid_icon}>
+				</Link>
+				<Link href='/' className={styles.mid_icon}>
 					<I_House height={30} />
-				</span>
-				<span className={styles.icon}>
+				</Link>
+				<Link href='/mypage/fav' className={styles.icon}>
 					<I_heart height={30} />
-				</span>
-				<span className={styles.icon}>
+				</Link>
+				<Link href='/mypage' className={styles.icon}>
 					<I_mypage height={30} />
-				</span>
+				</Link>
 			</div>
 		</nav>
 	);

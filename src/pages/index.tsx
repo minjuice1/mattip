@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 const HomePage = () => {
 	return (
 		<>
-			<div className={styles.warpper}>The Home Page</div>
+			<div className={styles.container}>The Home Page</div>
 		</>
 	);
 };
