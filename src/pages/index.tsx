@@ -1,15 +1,9 @@
-import Footer from "../components/common/layout/footer";
-import Header from "../components/common/layout/header";
-import styles from "../styles/homepage.module.css";
+import styles from "./index.module.css";
 
 const HomePage = () => {
 	return (
 		<>
-			<Header />
-			<main className={styles.container}>
-				<div className={styles.warpper}></div>
-			</main>
-			<Footer />
+			<div className={styles.warpper}>The Home Page</div>
 		</>
 	);
 };

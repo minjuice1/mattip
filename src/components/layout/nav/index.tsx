@@ -7,7 +7,7 @@ import styles from "./index.module.css";
 
 const Footer = () => {
 	return (
-		<footer className={styles.container}>
+		<nav className={styles.container}>
 			<div className={styles.icons}>
 				<span className={styles.icon}>
 					<I_Bars height={30} />
@@ -25,7 +25,7 @@ const Footer = () => {
 					<I_mypage height={30} />
 				</span>
 			</div>
-		</footer>
+		</nav>
 	);
 };
 
