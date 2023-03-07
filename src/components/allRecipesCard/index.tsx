@@ -17,7 +17,7 @@ const AllRecipeCard = ({ image }: RecipeInfo) => {
 				<div className={styles.timeAndFavWrapper}>
 					<span className={styles.time}>
 						<I_clock className={styles.icon} />
-						30Min
+						30분
 					</span>
 					<span className={styles.fav}>
 						<I_thumbs className={styles.icon} />

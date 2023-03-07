@@ -24,13 +24,13 @@ const PopularAndReviewCard = () => {
 						<span className={styles.iconWrapper}>
 							<I_cal height={15} className={styles.icon} />
 						</span>
-						<span className={styles.desc}>400 cal</span>
+						<span className={styles.desc}>400Cal</span>
 					</div>
 					<div className={styles.descWrapper}>
 						<span className={styles.iconWrapper}>
 							<I_clock height={15} className={styles.icon} />
 						</span>
-						<span className={styles.desc}>20 Min</span>
+						<span className={styles.desc}>20분</span>
 					</div>
 				</div>
 				<div className={styles.descWrapper}>
