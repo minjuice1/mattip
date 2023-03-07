@@ -6,4 +6,5 @@
 
 .img {
 	border-radius: 12px;
+	max-height: 250px;
 }

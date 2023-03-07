@@ -5,3 +5,9 @@
 	justify-content: center;
 	align-items: center;
 }
+
+.title {
+	height: 100px;
+	line-height: 6.5;
+	font-size: 25px;
+}
