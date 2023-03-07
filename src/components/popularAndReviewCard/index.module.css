@@ -5,12 +5,13 @@
 }
 
 .imageWrapper {
-	width: 140px;
+	width: 160px;
+	height: auto;
 }
 
 .img {
 	width: 100%;
-	height: 110px;
+	height: 140px;
 	border-radius: 20px;
 }
 
