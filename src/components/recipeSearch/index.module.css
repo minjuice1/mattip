@@ -2,39 +2,41 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	height: 40px;
-	margin: 10px auto;
+	height: 45px;
+	margin: 20px auto;
 	border-radius: 20px;
-	background-color: #ecb494;
+	background-color: #ffb923c2;
 }
 
 .search {
 	height: 16px;
 	margin-left: 15px;
-	fill: #e1e1da;
+	fill: #ffffffd5;
 }
 
 .input {
 	margin: 0 10px;
 	width: 350px;
 	height: 30px;
+	font-size: 17px;
 	font-weight: 600;
-	color: #e1e1da;
+	color: #ffffffd5;
 	border: none;
 	outline: none;
 	background-color: transparent;
 }
 
 .input::placeholder {
-	color: #e1e1da;
+	color: #ffffffd5;
 }
 
 .filterWrapper {
 	display: flex;
 	border-radius: 12px;
 	padding: 7px;
-	background-color: #f3f3f3;
+	background-color: #ffffffd5;
 	/* box-shadow: 1px 1px 1px 1px #e16641; */
+	margin-right: 10px;
 	cursor: pointer;
 }
 

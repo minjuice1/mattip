@@ -1,0 +1,46 @@
+.container {
+	position: relative;
+	display: flex;
+	margin: 0 calc(100% - 83%);
+}
+
+.imageWrapper {
+	width: 160px;
+	height: auto;
+}
+
+.img {
+	width: 100%;
+	height: 140px;
+	border-radius: 20px;
+}
+
+.infoWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 180px;
+	font-size: 12px;
+	padding: 0 12px;
+	margin-bottom: 5px;
+}
+
+.title {
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 3px;
+}
+
+.descWrapper {
+	display: flex;
+}
+
+.iconWrapper {
+	display: flex;
+	align-items: center;
+	margin-right: 3px;
+}
+
+.desc {
+	margin-right: 12px;
+}
