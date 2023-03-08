@@ -15,8 +15,10 @@
 .logo {
 	display: flex;
 	align-items: center;
+	color: #e16641;
 	font-size: 28px;
 	font-weight: 600;
 	margin: 10px;
+	text-decoration: none;
 	cursor: pointer;
 }

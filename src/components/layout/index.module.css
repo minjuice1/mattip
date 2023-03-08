@@ -1,12 +1,13 @@
 .container {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	width: 100%;
 	height: calc(100vh - 140px);
 }
 
-.warpper {
-	width: 475px;
-	border-right: 1px solid #e7e7e7;
-	border-left: 1px solid #e7e7e7;
+.bg {
+	width: 470px;
+	height: calc(100vh - 40px);
+	border-radius: 20px;
 }
