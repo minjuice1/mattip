@@ -1,0 +1,55 @@
+.container {
+	position: absolute;
+	top: 200px;
+	/* top: calc(100% - 20%); */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: calc(100% - 28%);
+	height: 90px;
+	border-radius: 15px;
+	background-color: #ffffff;
+	box-shadow: 1px 3px 3px 1px #e2e2e2;
+}
+
+.titleAndIcon {
+	display: flex;
+	align-items: center;
+	margin: 5px 0;
+}
+
+.title {
+	font-size: 22px;
+	margin: 0;
+}
+
+.iconWrapper {
+	display: flex;
+}
+
+.featureIcon {
+	width: 21px;
+	margin-left: 9px;
+	fill: #565656;
+}
+
+.serve {
+	font-size: 12px;
+	font-weight: 300;
+	margin: 0 0 9px 0;
+}
+
+.descWrapper {
+	display: flex;
+	fill: #f7a68e;
+}
+
+.desc {
+	font-size: 14px;
+	margin-right: 23px;
+}
+
+.icon {
+	width: 13px;
+	margin-right: 3px;
+}

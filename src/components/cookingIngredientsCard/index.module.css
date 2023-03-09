@@ -1,0 +1,16 @@
+.container {
+	width: 100%;
+	padding-left: 30px;
+}
+
+.title {
+	height: 55px;
+	line-height: 4;
+	font-size: 25px;
+}
+
+.itemWrapper {
+	width: 100%;
+	display: flex;
+	overflow-y: scroll;
+}

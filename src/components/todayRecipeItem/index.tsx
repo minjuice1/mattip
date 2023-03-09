@@ -1,8 +1,9 @@
-import Image from "next/image";
-import Thumbnail from "../../../images/thumbnail.avif";
 import styles from "./index.module.css";
+import Image from "next/image";
 
-const TodayCard = () => {
+import Thumbnail from "../../images/thumbnail.avif";
+
+const TodayRecipeItem = () => {
 	return (
 		<>
 			<li className={styles.container}>
@@ -12,8 +13,8 @@ const TodayCard = () => {
 				<div className={styles.info}>
 					<span className={styles.title}>Penne pasta tomato</span>
 					<div className={styles.descWrapper}>
-						<span className={styles.desc}>30 cal</span>
-						<span className={styles.desc}>30 Min</span>
+						<span className={styles.desc}>30Cal</span>
+						<span className={styles.desc}>30분</span>
 					</div>
 				</div>
 			</li>
@@ -21,4 +22,4 @@ const TodayCard = () => {
 	);
 };
 
-export default TodayCard;
+export default TodayRecipeItem;

@@ -1,6 +1,5 @@
 import { PropsWithChildren } from "react";
 import { useRouter } from "next/router";
-import Header from "./header/index";
 import Nav from "./nav/index";
 import Container from "../common/container/index";
 
@@ -27,7 +26,6 @@ const Layout = (props: PropsWithChildren) => {
 				</>
 			) : (
 				<>
-					<Header />
 					<main className={styles.container}>
 						<Container>{props.children}</Container>
 					</main>

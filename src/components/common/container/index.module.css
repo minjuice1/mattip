@@ -1,6 +1,10 @@
 .container {
 	width: 475px;
-	padding: 5px;
+	padding: 10px;
+	border-top: 1px solid #e7e7e7;
 	border-right: 1px solid #e7e7e7;
 	border-left: 1px solid #e7e7e7;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	overflow-y: scroll;
 }

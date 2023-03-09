@@ -1,0 +1,38 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.img {
+	max-width: 200px;
+	max-height: 150px;
+}
+
+.descWrapper {
+	display: flex;
+	flex-direction: column;
+	font-size: 13px;
+	padding: 0 5px;
+}
+
+.timeAndFavWrapper {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.title {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 3px;
+}
+
+.icon {
+	height: 12px;
+	margin-right: 3px;
+}
+
+.time:nth-child(1)::after {
+	content: "|";
+	margin: 0 7px;
+}
