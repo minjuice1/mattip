@@ -1,0 +1,31 @@
+.subtitle {
+	font-size: 20px;
+}
+
+.recipeWrapper {
+	display: flex;
+	padding: 0;
+	overflow-x: scroll;
+}
+
+.subtitleWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 10px;
+}
+
+.see_all {
+	color: #ffffff;
+	font-size: 14px;
+	border: none;
+	border-radius: 20px;
+	padding: 6px;
+	opacity: 90%;
+	background-color: #f7a78ed1;
+	cursor: pointer;
+}
+
+.see_all:hover {
+	opacity: 80%;
+}

@@ -1,0 +1,10 @@
+.imageWrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.img {
+	border-radius: 12px;
+	max-height: 250px;
+}
