@@ -1,0 +1,16 @@
+.container {
+	position: absolute;
+	top: 12px;
+	left: 52px;
+	cursor: pointer;
+}
+
+.icon {
+	width: 12px;
+	fill: #ffffff;
+	opacity: 80%;
+}
+
+.icon:hover {
+	opacity: 100%;
+}

@@ -1,0 +1,7 @@
+.container {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	height: calc(100vh - 115px);
+	overflow-y: scroll;
+}
