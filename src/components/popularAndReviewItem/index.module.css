@@ -7,6 +7,11 @@
 .imageWrapper {
 	width: 160px;
 	height: auto;
+	cursor: pointer;
+}
+
+.imageWrapper:hover {
+	opacity: 90%;
 }
 
 .img {

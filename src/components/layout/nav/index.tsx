@@ -14,7 +14,7 @@ const Nav = () => {
 				<span className={styles.icon}>
 					<I_Bars height={30} />
 				</span>
-				<Link href='/recipe/all' className={styles.icon}>
+				<Link href='/recipe' className={styles.icon}>
 					<I_List height={30} />
 				</Link>
 				<Link href='/' className={styles.mid_icon}>

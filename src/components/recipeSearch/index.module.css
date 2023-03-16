@@ -5,13 +5,14 @@
 	height: 45px;
 	margin: 20px auto;
 	border-radius: 20px;
-	background-color: #ffb923c2;
+	background-color: #ff8303c9;
+	opacity: 90%;
 }
 
 .search {
 	height: 16px;
 	margin-left: 15px;
-	fill: #ffffffd5;
+	fill: #f7f1e5;
 }
 
 .input {
@@ -20,21 +21,22 @@
 	height: 30px;
 	font-size: 17px;
 	font-weight: 600;
-	color: #ffffffd5;
+	color: #f7f1e5;
 	border: none;
 	outline: none;
 	background-color: transparent;
+	cursor: pointer;
 }
 
 .input::placeholder {
-	color: #ffffffd5;
+	color: #f7f1e5;
 }
 
 .filterWrapper {
 	display: flex;
 	border-radius: 12px;
 	padding: 7px;
-	background-color: #ffffffd5;
+	background-color: #f7f1e5;
 	/* box-shadow: 1px 1px 1px 1px #e16641; */
 	margin-right: 10px;
 	cursor: pointer;
